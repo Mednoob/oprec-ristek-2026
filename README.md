@@ -9,7 +9,9 @@ A form making app.
 ## Installation / Setup
 1. Rename `.env.example` to `.env` and fill each fields
 2. Run `pnpm i` to install dependencies
-3. Run the server
+3. Run `pnpx prisma migrate dev`
+4. Run `pnpx prisma generate`
+5. Run the server
 
 ## Running The Server
 1. Development:
